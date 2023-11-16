@@ -9,10 +9,10 @@ import SwiftUI
 
 
 struct MoviePosterCard: View {
-
+    
     let movie: Movie
     @ObservedObject var imageLoader = ImageLoader()
-
+    
     var body: some View {
         ZStack {
             if self.imageLoader.image != nil {
@@ -21,13 +21,13 @@ struct MoviePosterCard: View {
                     .aspectRatio(contentMode: .fill)
                     .cornerRadius(8)
                     .shadow(radius: 4)
-
+                
             } else {
                 Rectangle()
                     .fill(Color.gray.opacity(0.3))
                     .cornerRadius(8)
                     .shadow(radius: 4)
-
+                
                 Text(movie.title)
                     .multilineTextAlignment(.center)
             }

@@ -14,7 +14,7 @@ extension Movie {
     }
 
     static var stubbedMovie: Movie {
-        stubbedMovies[0]
+        stubbedMovies[5]
     }
 }
 

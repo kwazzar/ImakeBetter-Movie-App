@@ -12,7 +12,7 @@ class MovieStore: MovieService {
     static let shared = MovieStore()
     private init() {}
 
-    private let apiKey = Keys.apiMovieDBKey
+    private let apiKey = apiMovieDBKey
     private let baseAPIUrl = "https://api.themoviedb.org/3"
     private let urlSession = URLSession.shared
     private let jsonDecoder = Utils.jsonDecoder
@@ -20,9 +20,11 @@ class MovieStore: MovieService {
     func fetchMovies(from endpoint: MovieListEndpoint, completion: @escaping (Result<MovieResponse, MovieError>) -> ()) {
         guard let url = URL(string: "\(baseAPIUrl)/movie/\(endpoint.rawValue)") else {
             completion(.failure(.invalidEndpoint))
+            
             return
         }
         self.loadURLAndDecode(url: url, completion: completion)
+        print(url)
     }
 
     func fetchMovie(id: Int, completion: @escaping (Result<Movie, MovieError>) -> ()) {
@@ -88,12 +90,13 @@ class MovieStore: MovieService {
                 self.executeCompletionHadlerInMainThread(with: .failure(.serialitationError), completion: completion)
             }
 
-        }
+        }.resume()
     }
 
     private func executeCompletionHadlerInMainThread<T: Decodable>(with result: Result<T, MovieError>, completion: @escaping (Result<T,MovieError>) -> ()) {
         DispatchQueue.main.async {
             completion(result)
+            print(result)
         }
 
     }

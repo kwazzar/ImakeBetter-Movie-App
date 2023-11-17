@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30014102B07D0E300F20DCF /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E300140F2B07D0E300F20DCF /* SafariView.swift */; };
 		E31E39422B05DA4B001D27A7 /* MoviePosterCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E39412B05DA4B001D27A7 /* MoviePosterCarouselView.swift */; };
 		E31E39442B05DC4B001D27A7 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E39432B05DC4B001D27A7 /* MovieListView.swift */; };
 		E31E39462B05DCE7001D27A7 /* MovieListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E39452B05DCE7001D27A7 /* MovieListState.swift */; };
@@ -15,12 +16,13 @@
 		E31FE1B02B05934300D6803E /* .gitIgnore in Resources */ = {isa = PBXBuildFile; fileRef = E31FE1AF2B05934300D6803E /* .gitIgnore */; };
 		E31FE1B62B05A06A00D6803E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31FE1B52B05A06A00D6803E /* ImageLoader.swift */; };
 		E32909B42B05349F005D7CC0 /* ImakeBetter Movie App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32909B32B05349F005D7CC0 /* ImakeBetter Movie App.swift */; };
-		E32909B62B05349F005D7CC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32909B52B05349F005D7CC0 /* ContentView.swift */; };
 		E32909B82B0534A2005D7CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32909B72B0534A2005D7CC0 /* Assets.xcassets */; };
 		E32909BB2B0534A2005D7CC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32909BA2B0534A2005D7CC0 /* Preview Assets.xcassets */; };
 		E32909C32B053C38005D7CC0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32909C22B053C38005D7CC0 /* Movie.swift */; };
 		E32909C62B053E95005D7CC0 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32909C52B053E95005D7CC0 /* MovieService.swift */; };
 		E37679DD2B05C01A00D54AD6 /* MoviePosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37679DC2B05C01A00D54AD6 /* MoviePosterCard.swift */; };
+		E3850C012B07B4A20093976C /* MovieDetailState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3850C002B07B4A20093976C /* MovieDetailState.swift */; };
+		E3850C032B07B5C80093976C /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3850C022B07B5C80093976C /* MovieDetailView.swift */; };
 		E396C0F22B05CA4B00EA47DC /* movie_list.json in Resources */ = {isa = PBXBuildFile; fileRef = E396C0F12B05CA4B00EA47DC /* movie_list.json */; };
 		E39C73832B054ACC0087950B /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C73822B054ACC0087950B /* MovieStore.swift */; };
 		E39C73852B054C2B0087950B /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C73842B054C2B0087950B /* Keys.swift */; };
@@ -29,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E300140F2B07D0E300F20DCF /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		E31E39412B05DA4B001D27A7 /* MoviePosterCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterCarouselView.swift; sourceTree = "<group>"; };
 		E31E39432B05DC4B001D27A7 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		E31E39452B05DCE7001D27A7 /* MovieListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListState.swift; sourceTree = "<group>"; };
@@ -38,12 +41,13 @@
 		E31FE1B52B05A06A00D6803E /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		E32909B02B05349F005D7CC0 /* ImakeBetter Movie App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImakeBetter Movie App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32909B32B05349F005D7CC0 /* ImakeBetter Movie App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImakeBetter Movie App.swift"; sourceTree = "<group>"; };
-		E32909B52B05349F005D7CC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E32909B72B0534A2005D7CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E32909BA2B0534A2005D7CC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E32909C22B053C38005D7CC0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		E32909C52B053E95005D7CC0 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		E37679DC2B05C01A00D54AD6 /* MoviePosterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterCard.swift; sourceTree = "<group>"; };
+		E3850C002B07B4A20093976C /* MovieDetailState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailState.swift; sourceTree = "<group>"; };
+		E3850C022B07B5C80093976C /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		E396C0F12B05CA4B00EA47DC /* movie_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_list.json; sourceTree = "<group>"; };
 		E39C73822B054ACC0087950B /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
 		E39C73842B054C2B0087950B /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				E31E39492B05DE51001D27A7 /* ActivityIndicatorView.swift */,
+				E300140F2B07D0E300F20DCF /* SafariView.swift */,
 			);
 			path = UIKitViews;
 			sourceTree = "<group>";
@@ -79,6 +84,7 @@
 				E31E39412B05DA4B001D27A7 /* MoviePosterCarouselView.swift */,
 				E31E39432B05DC4B001D27A7 /* MovieListView.swift */,
 				E31E394B2B05DEF8001D27A7 /* LoadingView.swift */,
+				E3850C022B07B5C80093976C /* MovieDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +94,7 @@
 			children = (
 				E31FE1B52B05A06A00D6803E /* ImageLoader.swift */,
 				E31E39452B05DCE7001D27A7 /* MovieListState.swift */,
+				E3850C002B07B4A20093976C /* MovieDetailState.swift */,
 			);
 			path = Binding;
 			sourceTree = "<group>";
@@ -115,7 +122,6 @@
 				E3B82C302B061DA400E547A3 /* ImakeBetter-Movie-App-Info.plist */,
 				E32909B32B05349F005D7CC0 /* ImakeBetter Movie App.swift */,
 				E39C73862B054D9C0087950B /* Utils.swift */,
-				E32909B52B05349F005D7CC0 /* ContentView.swift */,
 				E32909B72B0534A2005D7CC0 /* Assets.xcassets */,
 				E37679D22B05BA9D00D54AD6 /* Resourses */,
 				E31FE1B22B059FC800D6803E /* Binding */,
@@ -236,9 +242,9 @@
 			files = (
 				E39C73872B054D9C0087950B /* Utils.swift in Sources */,
 				E31E39442B05DC4B001D27A7 /* MovieListView.swift in Sources */,
-				E32909B62B05349F005D7CC0 /* ContentView.swift in Sources */,
 				E31FE1B62B05A06A00D6803E /* ImageLoader.swift in Sources */,
 				E39C73852B054C2B0087950B /* Keys.swift in Sources */,
+				E3850C012B07B4A20093976C /* MovieDetailState.swift in Sources */,
 				E32909B42B05349F005D7CC0 /* ImakeBetter Movie App.swift in Sources */,
 				E32909C62B053E95005D7CC0 /* MovieService.swift in Sources */,
 				E31E39422B05DA4B001D27A7 /* MoviePosterCarouselView.swift in Sources */,
@@ -246,7 +252,9 @@
 				E31E39462B05DCE7001D27A7 /* MovieListState.swift in Sources */,
 				E32909C32B053C38005D7CC0 /* Movie.swift in Sources */,
 				E39C73832B054ACC0087950B /* MovieStore.swift in Sources */,
+				E30014102B07D0E300F20DCF /* SafariView.swift in Sources */,
 				E37679DD2B05C01A00D54AD6 /* MoviePosterCard.swift in Sources */,
+				E3850C032B07B5C80093976C /* MovieDetailView.swift in Sources */,
 				E31E394A2B05DE51001D27A7 /* ActivityIndicatorView.swift in Sources */,
 				E31E394C2B05DEF8001D27A7 /* LoadingView.swift in Sources */,
 			);

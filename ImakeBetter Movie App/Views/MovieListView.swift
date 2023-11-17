@@ -76,7 +76,6 @@ struct MovieListView: View {
             self.nowPlayingState.loadMovies(with: .nowPlaying)
             self.upcomingState.loadMovies(with: .upcoming)
             self.topRatedState.loadMovies(with: .topRated)
-            print(topRatedState.loadMovies(with: .topRated))
             self.popularState.loadMovies(with: .popular)
         }
         
